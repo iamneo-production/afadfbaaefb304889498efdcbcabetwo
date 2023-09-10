@@ -82,5 +82,21 @@ h1{
   border:1px solid dodgerblue;
   margin-left:auto;
   border-radius:8px;
-  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color:whitesmoke;
+  color:dodgerblue;
+  font-size:20px;
+  cursor:pointer;
+}
+#print{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:dodgerblue;
+  font-size:20px;
+}
+#main{
+  text-align:center;
+}
+#ins{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:dodgerblue;
 }
