@@ -240,4 +240,56 @@ function myfunc(){
         }
     }
 }
-function
+function myfunc_2(){
+    location.reload();
+    b1 = b2 = b3 = b4 = b5 = b6 = b7 = b8 = b9 = ' ';
+}
+flag = 1;
+function myfunc_3(){
+    if(flag == 1){
+        document.getElementById("b1").value = 'X';
+        document.getElementById("b1").disabled = true;
+        flag = 0;
+    }
+    else{
+        document.getElementById("b1").value = '0';
+        document.getElementById("b1").disabled = true;
+        flag = 1;
+    }
+}
+function myfunc_4(){
+    if(flag == 1){
+        document.getElementById("b2").value = 'X';
+        document.getElementById("b2").disabled = true;
+        flag = 0;
+    }
+    else{
+        document.getElementById("b2").value = '0';
+        document.getElementById("b3").disabled = true;
+        flag = 1;
+    }
+}
+function myfunc_5(){
+    if(flag == 1){
+        document.getElementById("b3").value = 'X';
+        document.getElementById("b3").disabled = true;
+        flag = 0;
+    }
+    else{
+        document.getElementById("b3").value = '0';
+        document.getElementById("b3").disabled = true;
+        flag = 1;
+    }
+}
+function myfunc_6(){
+    if(flag == 1){
+        document.getElementById("b4").value = 'X';
+        document.getElementById("b4").disabled = true;
+        flag = 0;
+    }
+    else{
+        document.getElementById("b4").value = '0';
+        document.getElementById("b4").disabled = true;
+        flag = 1;
+    }
+}
