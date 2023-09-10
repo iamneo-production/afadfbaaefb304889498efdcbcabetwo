@@ -187,17 +187,48 @@ function myfunc(){
         b6btn.style.color = 'red';
         b3btn.style.color = 'red';
     }
-    else if ((b1 == '0' || b1 == 'o') && (b5 == 'o' || b2 == '0') && (b3 == '0' || b3 == 'o')){
+    else if ((b1 == '0' || b1 == 'o') && (b5 == 'o' || b5 == '0') && (b9 == '0' || b9 == 'o')){
         "Player 0 won" = document.getElementById('print').innerHTML;
         b4btn.disabled = TRUE;
-        b5btn.disabled = TRUE;
+        b2btn.disabled = TRUE;
         b6btn.disabled = TRUE;
         b7btn.disabled = TRUE;
         b8btn.disabled = TRUE;
-        b9btn.disabled = TRUE;
+        b3btn.disabled = TRUE;
 
         b1btn.style.color = 'red';
-        b2btn.style.color = 'red';
+        b5btn.style.color = 'red';
+        b9btn.style.color = 'red';
+    }
+    else if ((b3 == '0' || b3 == 'o') && (b5 == 'o' || b5 == '0') && (b7 == '0' || b7 == 'o')){
+        "Player 0 won" = document.getElementById('print').innerHTML;
+        b1btn.disabled = TRUE;
+        b2btn.disabled = TRUE;
+        b4btn.disabled = TRUE;
+        b6btn.disabled = TRUE;
+        b9btn.disabled = TRUE;
+        b8btn.disabled = TRUE;
+
         b3btn.style.color = 'red';
+        b5btn.style.color = 'red';
+        b7btn.style.color = 'red';
+    }
+    else if ((b5 == '0' || b5 == 'o') && (b2 == 'o' || b2 == '0') && (b8 == '0' || b8 == 'o')){
+        "Player 0 won" = document.getElementById('print').innerHTML;
+        b4btn.disabled = TRUE;
+        b1btn.disabled = TRUE;
+        b6btn.disabled = TRUE;
+        b7btn.disabled = TRUE;
+        b3btn.disabled = TRUE;
+        b9btn.disabled = TRUE;
+
+        b2btn.style.color = 'red';
+        b5btn.style.color = 'red';
+        b8btn.style.color = 'red';
+    }
+    else if ((b1 == 'X' || b1 == '0') && (b2 == 'X' || b2 == '0') && (b3 == 'X' || b3 == '0') &&
+    (b4 == 'X' || b4 == '0') && (b5 == 'X' || b5 == '0') && (b6 == 'X' || b6 == '0') &&
+    (b7 == 'X' || b7 == '0') && (b1 == 'X' || b1 == '0') && (b1 == 'X' || b1 == '0')){
+        "Match Tie" = document.getElementById('print').innerHTML;
     }
 }
