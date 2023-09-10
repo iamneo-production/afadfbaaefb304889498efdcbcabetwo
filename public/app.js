@@ -20,7 +20,7 @@ function myfunc(){
     b8btn = document.getElementById("b8");
     b9btn = document.getElementById("b9");
     if((b1 == 'x' || b1 == 'X') && (b2 == 'X' || b2 == 'x') && (b3 == 'X' || b4 == 'x')){
-        "Player x won" = document.getElementById('print').innerHTML;
+        "Player X won" = document.getElementById('print').innerHTML;
         b4btn.disabled = TRUE;
         b5btn.disabled = TRUE;
         b6btn.disabled = TRUE;
@@ -30,6 +30,31 @@ function myfunc(){
 
         b1btn.style.color = 'red';
         b2btn.style.color = 'red';
+        b3btn.style.color = 'red';
+    }
+    else if ((b1 == 'X' || b1 == 'x') && (b4 == 'x' || b4 == 'X') && (b7 == 'x' || b7 == 'X')){
+        "Player X won" = document.getElementById('print').innerHTML;
+        b2btn.disabled = TRUE;
+        b3btn.disabled = TRUE;
+        b5btn.disabled = TRUE;
+        b6btn.disabled = TRUE;
+        b8btn.disabled = TRUE;
+        b9btn.disabled = TRUE;
+
         b1btn.style.color = 'red';
+        b4btn.style.color = 'red';
+        b7btn.style.color = 'red';
+    }
+    else if ((b9 == 'X' || b9 == 'x') && (b8 == 'x' || b8 == 'X') && (b7 == 'x' || b7 == 'X')){
+        b2btn.disabled = TRUE;
+        b3btn.disabled = TRUE;
+        b5btn.disabled = TRUE;
+        b6btn.disabled = TRUE;
+        b8btn.disabled = TRUE;
+        b9btn.disabled = TRUE;
+
+        b1btn.style.color = 'red';
+        b4btn.style.color = 'red';
+        b7btn.style.color = 'red';
     }
 }
