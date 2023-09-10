@@ -8,6 +8,11 @@ body {
     font-family: "Radio Canada", sans-serif;
   }
 h1{
-  color:orangered;
-  margin-bottom: -5px;
+  color:white;
+  text-align:center;
+  text-shadow:1px 1px;
+  font-size:50px;
+}
+p{
+  
 }
